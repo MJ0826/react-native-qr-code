@@ -1,6 +1,6 @@
 {
     "name": "@mudit_26/react-native-qr-code",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A QR Code generator for React Native based on @react-native-community/art",
     "main": "index.js",
     "types": "index.d.ts",

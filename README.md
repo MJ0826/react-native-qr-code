@@ -59,7 +59,7 @@ render() {
 
 | Name | Type | Description | Default
 | ------------ | ------------- | ------------ |------------ |
-| `size` | Number  | Current position in steps | 100
+| `size` | Number  | Size of rendered image in pixels | 100
 | ```value``` | String  | String Value of the QR codes | Hello World!
 | ```color``` | String  | Color of the QR code | black
 | ```style``` | Object  | Custom styling | {}
