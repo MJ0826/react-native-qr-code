@@ -1,0 +1,62 @@
+{
+    "name": "@mudit_26/react-native-qr-code",
+    "version": "1.0.0",
+    "description": "A QR Code generator for React Native based on @react-native-community/art",
+    "main": "index.js",
+    "types": "index.d.ts",
+    "scripts": {
+      "test": "jest",
+      "lint": "standard 'src/**/*.js'",
+      "lint:fix": "standard 'src/**/*.js' --fix",
+      "lint:staged": "lint-staged"
+    },
+    "standard": {
+      "env": [
+        "jest"
+      ],
+      "parser": "babel-eslint"
+    },
+    "jest": {
+      "testPathIgnorePatterns": [
+        "/node_modules/"
+      ]
+    },
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:MJ0826/react-native-qr-code.git"
+    },
+    "keywords": [
+      "react-component",
+      "ios",
+      "android",
+      "react-native",
+      "qr",
+      "qrcode",
+      "art"
+    ],
+    "author": "Mudit Jumnani",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/MJ0826/react-native-qr-code/issues"
+    },
+    "homepage": "https://github.com/MJ0826/react-native-qr-code",
+    "peerDependencies": {
+      "react-native": ">=0.59.0",
+      "react": "*",
+      "@react-native-community/art": "^1.2.0"
+    },
+    "dependencies": {
+       "qr.js": "^0.0.0"
+    },
+    "devDependencies": {
+      "babel-eslint": "^10.1.0",
+      "babel-jest": "^25.4.0",
+      "husky": "^4.2.5",
+      "jest": "^25.4.0",
+      "lint-staged": "^10.1.7",
+      "metro-react-native-babel-preset": "^0.59.0",
+      "react": "^16.11.0",
+      "react-test-renderer": "^16.13.1",
+      "standard": "^14.3.3"
+    }
+  }
